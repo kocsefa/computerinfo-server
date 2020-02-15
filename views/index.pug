@@ -1,0 +1,25 @@
+extends layout
+
+block content
+  div
+    table#userdata.table.table-striped.table-bordered
+      thead
+        th ComputerName
+        th UserName
+        th IP Address
+        th Manufacturer
+        th Model
+        th SerialNumber
+        th OS
+        th OSVersion
+        th ConnectionTime
+        th InstallDate
+        th Connect
+      tbody
+
+block scripts
+  script(src="https://code.jquery.com/jquery-3.3.1.js")
+  script(src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js")
+  script(src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js")
+  script(src="/socket.io/socket.io.js", type="text/javascript")
+  script(src="/javascripts/app.js", type="text/javascript")

@@ -1,0 +1,11 @@
+body > div {
+  padding: 24px;
+}
+
+td, th {
+  white-space: nowrap;
+}
+
+* {
+  user-select: none;
+}
